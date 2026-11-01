@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/logo_16.png",
+         "32": "icons/logo_32.png",
+         "48": "icons/logo_48.png",
+         "128": "icons/logo_128.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "js/instagram-comment-focus.js" ],
+      "matches": [ "https://www.instagram.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDes__",
+   "host_permissions": [ "*://*.instagram.com/*" ],
+   "icons": {
+      "16": "icons/logo_16.png",
+      "32": "icons/logo_32.png",
+      "48": "icons/logo_48.png",
+      "128": "icons/logo_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtyUfvC3e9mcn0YXR0uDcxge3xHWf8COucqoc4381s8+I3i9m2r4Dnxcb6iZx8C0PWG/ASMZi+ei+BAS2GI/PqLNJkXkTx+/mro59tt7SNIJwHbS3j1BSWvWnz5jGDCAs+8VPo7P12/q/pxdrC+jNdMACdbJVK92IQXU5quOwlZktfcMvmou2KClLn5H2g9UEqdwOHPjSRRXjDbIEzCrJxdAduolHbji7FbtJAdrIcDr/bKYSlxqO2OasFmcCyTNKKqUMlaHmiueUt/QX6zaBilB9SMH1od5y1STtL7opCcaQcOzwScqLmjqyhM+Q09mNZU31nuTXUoUygbAHBrbd9wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "options_page": "./options.html",
+   "permissions": [ "cookies", "storage", "unlimitedStorage" ],
+   "version": "1.3.13"
+}

@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.png binary
+*.ico binary
+*.woff binary
+*.ttf binary
+js/*.map linguist-generated=true
+js/options.js linguist-generated=true
+js/popup.js linguist-generated=true
+js/background.js linguist-generated=true
+js/chunk-vendors.js linguist-vendored=true

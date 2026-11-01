@@ -1,0 +1,10 @@
+{
+   "extDes": {
+      "description": "",
+      "message": "Instagramの公開コメントを簡単に抽出・保存。CSVやExcel形式で管理できるコメント分析ツール。ログイン不要で安全に利用できます。"
+   },
+   "extName": {
+      "description": "",
+      "message": "Instagramコメント抽出ツール - CSV・Excel保存対応"
+   }
+}

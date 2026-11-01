@@ -1,0 +1,37 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Development artifacts
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+coverage/
+.nyc_output/
+dist/
+build/
+release/
+tmp/
+*.log
+*.zip
+
+# Personal exports and session data
+*.csv
+*.xlsx
+*.xls
+*.har
+cookies*.json
+session*.json
+
+# Editors and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

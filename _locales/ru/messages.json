@@ -1,0 +1,10 @@
+{
+   "extDes": {
+      "description": "",
+      "message": "Экспорт комментариев и ответов Instagram в CSV или Excel с автоматическим сохранением прогресса."
+   },
+   "extName": {
+      "description": "",
+      "message": "Экспорт комментариев Instagram в CSV и Excel"
+   }
+}
