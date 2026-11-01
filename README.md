@@ -19,6 +19,14 @@
 - Open collected comments on Instagram and attempt to highlight them.
 - Use the local interface without a subscription-service account; legacy subscription screens are hidden and their user/payment API requests are disabled.
 
+### Screenshots
+
+English interface. The main screen shows fictional demonstration comments, not data collected from a real Instagram account.
+
+![English interface: export settings, completed collection and comment table](docs/screenshots/options-en.png)
+
+<img src="docs/screenshots/popup-en.png" width="310" alt="English extension popup with instructions and export button">
+
 ### Install in Chrome
 
 1. Download the repository ZIP using **Code → Download ZIP** and extract it.
@@ -85,6 +93,14 @@ Inherited code and third-party components are excluded from any relicensing clai
 - Автоматический русский интерфейс для русской локали браузера, английский — для остальных.
 - Переход к собранному комментарию в Instagram с попыткой подсветки.
 - Локальный интерфейс без регистрации в сервисе подписки: старые окна подписки скрыты, запросы к API аккаунта и оплаты отключены.
+
+### Скриншоты
+
+Русский интерфейс. На основном экране показаны вымышленные демонстрационные комментарии, а не данные из реального аккаунта Instagram.
+
+![Русский интерфейс: настройки экспорта, завершённый сбор и таблица комментариев](docs/screenshots/options-ru.png)
+
+<img src="docs/screenshots/popup-ru.png" width="310" alt="Русское всплывающее окно расширения с инструкцией и кнопкой экспорта">
 
 ### Установка в Chrome
 
