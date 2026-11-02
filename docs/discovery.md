@@ -4,11 +4,11 @@ These are suggested natural-language phrases, not measured search volumes or ran
 
 ## English description
 
-Export Instagram comments and replies from posts and Reels to CSV or Excel for audience research, feedback review, and text analysis. Save your progress and continue later. Requires an Instagram session in Chrome; data availability depends on Instagram. CSV can be converted locally to JSON or plain text.
+Export Instagram comments and replies from posts and Reels to CSV or Excel for audience research, feedback review, and text analysis. Save your progress and continue later. Requires an Instagram session in Chrome; data availability depends on Instagram.
 
 ## Описание на русском
 
-Сохраняйте комментарии и ответы из публикаций и Reels Instagram в CSV или Excel для анализа отзывов, исследования аудитории и работы с текстом. Прогресс сбора сохраняется, его можно продолжить позже. Нужен вход в Instagram в Chrome; доступность данных зависит от Instagram. CSV можно локально преобразовать в JSON или обычный текст.
+Сохраняйте комментарии и ответы из публикаций и Reels Instagram в CSV или Excel для анализа отзывов, исследования аудитории и работы с текстом. Прогресс сбора сохраняется, его можно продолжить позже. Нужен вход в Instagram в Chrome; доступность данных зависит от Instagram.
 
 ## Search intent ideas / Варианты запросов
 
@@ -18,8 +18,8 @@ Export Instagram comments and replies from posts and Reels to CSV or Excel for a
 | export Instagram comments to CSV or Excel | экспорт комментариев Instagram в CSV или Excel |
 | save Instagram Reel comments for analysis | как сохранить комментарии из Reels для анализа |
 | analyze Instagram comments in a spreadsheet | анализ комментариев Instagram в таблице |
-| convert Instagram comments CSV to JSON | как преобразовать комментарии Instagram из CSV в JSON |
-| save Instagram comments as text from CSV | как сохранить комментарии Instagram в текстовый файл из CSV |
+| download Instagram post replies to Excel | скачать ответы на комментарии Instagram в Excel |
+| collect Instagram comments for audience research | собрать комментарии Instagram для изучения аудитории |
 
 ## Suggested GitHub topics
 
@@ -29,5 +29,4 @@ Export Instagram comments and replies from posts and Reels to CSV or Excel for a
 
 - Use the existing English and Russian screenshots in their respective sections.
 - If submitting to Chrome Web Store, adapt the appropriate description and ensure the listing, privacy information, and permissions match the shipped extension. Avoid keyword stuffing.
-- Direct JSON and TXT export are not available yet. Add those features before advertising them as built-in formats.
 - Track actual discovery through the platforms' analytics; search indexing and ranking are not guaranteed.
