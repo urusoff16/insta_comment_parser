@@ -10,6 +10,19 @@
 
 ## English
 
+### Download Instagram comments for analysis
+
+Export comments and replies from an Instagram post or Reel to a text-based CSV file or an Excel spreadsheet. Use the downloaded data to review feedback, search comment text, study audience responses, or analyze conversations in your own tools. The extension needs an Instagram session in the same Chrome profile; the number of comments available depends on Instagram.
+
+Looking for Instagram comments in JSON or plain text? The extension currently exports CSV and XLSX; it does not have built-in JSON or TXT export. You can convert its CSV locally with Python 3:
+
+```sh
+python -c "import csv,json; f=open('comments.csv',encoding='utf-8-sig',newline=''); rows=list(csv.DictReader(f)); f.close(); open('comments.json','w',encoding='utf-8').write(json.dumps(rows,ensure_ascii=False,indent=2))"
+python -c "import csv; f=open('comments.csv',encoding='utf-8-sig',newline=''); rows=list(csv.DictReader(f)); f.close(); open('comments.txt','w',encoding='utf-8').write('\n\n'.join(r.get('text','') for r in rows))"
+```
+
+Replace `comments.csv` with the exported file name. JSON preserves the CSV columns as text; TXT contains the comment text only. Protect exported data and use it responsibly.
+
 ### Features
 
 - Export comments and replies, including author, text, date, profile URL and comment/parent identifiers.
@@ -84,6 +97,19 @@ This license permits use for its specified noncommercial purposes. It does not g
 Inherited code and third-party components are excluded from any relicensing claim and retain their respective rights and terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), including the provenance limitations of the supplied extension bundles.
 
 ## Русский
+
+### Как скачать комментарии Instagram для анализа
+
+Соберите комментарии и ответы к публикации или Reel в Instagram и сохраните их в текстовом формате CSV или таблице Excel. Полученные данные можно использовать для изучения отзывов и реакции аудитории, поиска по текстам комментариев и анализа обсуждений в других программах. Для сбора нужен вход в Instagram в том же профиле Chrome; количество доступных комментариев зависит от Instagram.
+
+Нужны комментарии Instagram в JSON или обычном текстовом файле? Расширение пока сохраняет данные в CSV и XLSX; встроенного экспорта в JSON и TXT нет. CSV можно преобразовать локально с помощью Python 3:
+
+```sh
+python -c "import csv,json; f=open('comments.csv',encoding='utf-8-sig',newline=''); rows=list(csv.DictReader(f)); f.close(); open('comments.json','w',encoding='utf-8').write(json.dumps(rows,ensure_ascii=False,indent=2))"
+python -c "import csv; f=open('comments.csv',encoding='utf-8-sig',newline=''); rows=list(csv.DictReader(f)); f.close(); open('comments.txt','w',encoding='utf-8').write('\n\n'.join(r.get('text','') for r in rows))"
+```
+
+Замените `comments.csv` на имя скачанного файла. JSON сохранит столбцы CSV как текстовые значения, а TXT будет содержать только тексты комментариев. Бережно обращайтесь с экспортированными данными.
 
 ### Возможности
 
